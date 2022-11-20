@@ -26,3 +26,15 @@ dark.onclick = function () {
 window.addEventListener("load", () => {
   body.style.opacity = "1";
 });
+let calci = document.querySelector('.calci');
+let foot = document.querySelector('.foot')
+calci.addEventListener('mouseover',()=>{
+  dark.style.top = "-40px";
+  foot.style.display = 'none';
+})
+calci.addEventListener('mouseleave',()=>{
+  dark.style.top = "20px";
+  foot.style.display = 'block';
+
+})
+
