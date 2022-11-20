@@ -116,6 +116,17 @@ body {
   color: whitesmoke;
   text-align: center;
   cursor: pointer;
+  transition: ease-in 0.3s;
+}
+#dark::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 96.5%;
+  background-color: rgb(202, 202, 202);
+  height: 50px;
+  width: 2px;
+  z-index: -1;
 }
 .dark > icon {
   margin: 6px;
