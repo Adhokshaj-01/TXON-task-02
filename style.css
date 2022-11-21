@@ -177,6 +177,10 @@ body {
   border: 2px solid #33393e !important;
   user-select: none;
 }
+.dark-thm > .calci > .buttons > #result{
+  color: rgb(31,188,14);
+  /* color: whitesmoke; */
+}
 /* footer */
 footer {
   position: fixed;
